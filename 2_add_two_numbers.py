@@ -4,6 +4,7 @@ class ListNode:
         self.val = x
         self.next = None
 
+# solution1
 class Solution:
     def addTwoNumbers(self, l1, l2):
         """
@@ -28,7 +29,7 @@ class Solution:
             p.next = ListNode(carry)
         return result.next
 
-
+# solution2
 class Solution:
     def addTwoNumbers(self, l1, l2):
         """
